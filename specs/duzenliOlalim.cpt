@@ -1,0 +1,54 @@
+Created by testinium on 26.12.2022
+
+This is a concept file with following syntax for each concept.
+# Skip Ekranlarini Atla
+* "4" saniye kadar bekle
+* Uygulamanin Acilmasi Kontrolu
+* "//*[@text='Skip']" xpathli elemente tikla
+* "2" saniye kadar bekle
+* "//*[@text='Skip']" xpathli elemente tikla
+* "4" saniye kadar bekle
+* "com.m.qr:id/push_consent_decline" idli elemente tikla
+* "2" saniye kadar bekle
+
+# Book Sayfasina Gecis
+* "//*[@text='Book']" xpathli elemente tikla
+* "2" saniye kadar bekle
+
+# Kalkis ve Varis Yerlerini Sec
+* "//android.widget.LinearLayout[@class='android.widget.LinearLayout' and @content-desc='One-way']" xpathli elemente tikla
+* "2" saniye kadar bekle
+* "//*[@text='Hamad International Airport']" xpathli elemente tikla
+* "3" saniye kadar bekle
+* "//*[@resource-id='com.m.qr:id/textinput_placeholder']" xpathli elemente tikla
+* "//*[@resource-id='com.m.qr:id/rvmp_fragment_ond_selection_filter_edittext']" xpathli elemente "Berlin" text degerini yaz
+* "//*[@text='BER - Berlin Brandenburg Airport']" xpathli elemente tikla
+
+# Kalkis ve Varis Yerlerini Secmeye Devam
+* "2" saniye kadar bekle
+* "//*[@text='Select destination']" xpathli elemente tikla
+* "//*[@resource-id='com.m.qr:id/rvmp_fragment_ond_selection_filter_edittext']" xpathli elemente "Istanbul" text degerini yaz
+* "//*[@text='IST - Istanbul Airport']" xpathli elemente tikla
+* "2" saniye kadar bekle
+
+# Tarih Sec
+* "//*[@resource-id='com.m.qr:id/rvmp_fragment_rtow_flight_selection_date_holder_date_text_view']" xpathli elemente tikla
+* "2" saniye kadar bekle
+* "//*[@clickable='true' and @text='6']" xpathli elemente tikla
+* "//*[@resource-id='com.m.qr:id/fragment_calendar_confirm_button']" xpathli elemente tikla
+* "2" saniye kadar bekle
+
+# Ucus Secim Ekrani Geldi mi Kontrol Et
+* "//*[@resource-id='com.m.qr:id/rvmp_booking_search_flights_button']" xpathli elemente tikla
+* "4" saniye kadar bekle
+* Secim Ekrani Kontrolu
+* "4" saniye kadar bekle
+
+# Ucus Detaylari ve Kontrol
+* "2" saniye kadar bekle
+* "//*[@resource-id='com.m.qr:id/rvmp_activity_flight_details_select_button']" xpathli elemente tikla
+* "10" saniye kadar bekle
+* Ucus Saati Kontrol
+
+
+
